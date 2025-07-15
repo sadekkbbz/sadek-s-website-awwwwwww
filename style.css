@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+:root{
+  --orange : hsl(31, 77%, 52%);
+  --cyan :  hsl(184, 100%, 22%) ;
+  --dark-cyan : hsl(179, 100%, 13%);
+  --white :  hsla(0, 0%, 100%, 0.75);
+  --gray :  hsl(0, 0%, 95%);
+
+}
+body{
+    
+    background-color: var(--gray);
+}
+#div1{
+    background-color: var(--orange);
+    border : solid var(--orange) ;
+    border-radius : 15px;;
+    color: var(--white);
+    margin-left: none;
+    padding-left: 20px;
+    margin-bottom: 10
+    0px;
+    height: 450px;
+    text-align: center;
+}
+#icon{
+    margin-top: 25px;
+}
+#paragraph{
+    font-family: "Lexend Deca";
+    line-height: 1.6;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+#div2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#first-heading{
+    font-family: "Big Shoulders";
+}
+.paragraph2{
+ font-family:"Lexend Deca" ;
+ border: solid var(--white);
+ display: inline;
+ padding: 16px;
+ padding-right: 40px;
+ padding-left: 40px;
+ margin-top: 20px;
+ width: 200px ;
+ border-radius: 35px;
+ font-size: 15px;
+ cursor: pointer;
+ color: var(--orange);
+ background-color: var(--white);
+}
+#bleu-ciel {
+    text-align: center;
+    background-color:var(--cyan);
+    border: solid var(--cyan);
+    border-radius: 10px;
+    color: var(--white);
+}
+#bleu-ciel img{
+        margin-top: 25px;   
+}
+#seconddiv{
+    font-family: "Lexend Deca";
+    line-height: 1.6;
+    margin-bottom: 80px;
+    margin-top: 40px; 
+}
+#suv{
+    font-family: "Big Shoulders";
+}
+#paragraph3{
+    line-height: 1.6;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+#dark-blue{
+    height: 450px;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    text-align: center;
+    border : solid var(--dark-cyan) ;
+    border-radius : 15px;;
+}
+#pic{
+        margin-top: 25px;
+}
+#lastparagraph{
+    font-family: "Lexend Deca";
+        line-height: 1.9;
+        margin-top: 40px;
+        margin-bottom: 70px;
+}
+#lastheader{
+    font-family: "Big Shoulders";
+}
+#lastone{
+   padding-top: 50px;
+    font-family:"Lexend Deca" ;
+ border: solid var(--white);
+ display: inline;
+ padding: 16px;
+ padding-right: 40px;
+ padding-left: 40px;
+ margin-top: 20px;
+ width: 200px ;
+ border-radius: 35px;
+ font-size: 15px;
+ cursor: pointer;
+ color: var(--dark-cyan);
+ background-color: var(--white);
+}
